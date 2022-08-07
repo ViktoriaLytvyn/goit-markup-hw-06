@@ -1150,6 +1150,7 @@ background-position: center;
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    background-color: transparent;
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
 }
