@@ -1127,7 +1127,7 @@ margin-right: 10px;
 .modal-form-check:checked +.modal-form-check-desc::before {
 background-color: var(--accent-color);
 border: var(--accent-color);
-background-image: url(/imadges/form-check.svg);
+background-image: url(../imadges/form-check.svg);
 background-repeat: no-repeat;
 background-position: center;
 }
