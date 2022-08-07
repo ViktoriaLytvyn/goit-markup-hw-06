@@ -1151,7 +1151,7 @@ background-position: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     background-color: transparent;
-    /* transition: color var(--primary-bg-color); */
+    transition: color var(--primary-bg-color), background-color var(--accent-color);
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
 }
