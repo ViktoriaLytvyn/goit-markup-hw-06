@@ -406,7 +406,8 @@ position: relative;
 }
 
 .team-card {
-    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+background-color: #FFFFFF;
+box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .team-name {
@@ -900,13 +901,13 @@ color: var(--primary-bg-color);
     margin-bottom: 4px;
     }
 
-.footer-form-input-wrapper{
+/* .footer-form-input-wrapper{
     display: block;
     position: relative;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;      
-}
+} */
 
 .footer-form-input-icon {
     width: 24px;
@@ -927,9 +928,10 @@ color: var(--primary-bg-color);
     border-radius: 4px;
     margin-right: 12px;
     background-color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
 }
-
-
 
 .footer-form-submit{
     font-weight: 700;
@@ -1023,7 +1025,7 @@ pointer-events: none;
     display: block;
     font-weight: 700;
     font-size: 20px;
-    line-height: 0.05;
+    line-height:1.17;
     text-align: center;
     margin-bottom: 12px;
     color: #212121;
@@ -1031,7 +1033,7 @@ pointer-events: none;
 }
 
 .modal-form-field {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
@@ -1044,10 +1046,10 @@ pointer-events: none;
     color: #757575;
     text-transform: inherit;
 }
+
 .modal-form-input-wrapper {
     display: block;
     position: relative;
-    margin-bottom: 10px;
 }
 
 .modal-form-input {
@@ -1088,6 +1090,7 @@ pointer-events: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border-color var(--transition-dur-and-func);
+    margin-bottom: 10px;
     
 }
 
